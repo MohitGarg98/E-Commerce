@@ -1,0 +1,23 @@
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 81%;
+    margin-top: -2px;
+}
+.sort-container{
+    width: 100%;
+    padding-right: 3%;
+}
+.select-tag{
+    float: right;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+}
+#itemPoster{
+    width: 80vw;
+    height: 52vh;
+    margin: 10px;
+}

@@ -1,0 +1,31 @@
+.left-aside-bar{
+    width: 19%;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 56px;
+    margin-top: -2px;
+    background-color:white;
+    border-right: 1px solid;
+}
+.cat-heading{
+    padding: 10px;
+}
+.category{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    padding: 5px 0px 5px 15px;
+    margin-bottom: -1px;
+}
+.category:hover, .category-active{
+    background-color: #0593b3;
+    color: azure;
+}
+.line{
+    border-bottom: 1px solid;
+}
